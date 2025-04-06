@@ -2,6 +2,8 @@
 let express = require("express")
 let logger = require("morgan")
 let mongoose = require("mongoose")
+let blog = require("./models/blog")
+
 
 
 let app = express()
